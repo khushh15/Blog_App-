@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header>
+
+        <h2 class="logo">CyberGrow</h2>
+           <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <button class="btn-Signin" onclick="opensigninmodel()">Signin</button>
+            <button class="btn-Signup" onclick="opensignupmodel()" >Signup</button>
+             <!-- <button class="btn-post" onclick="openpost()">Post</button>  -->
+           </nav>
+    </header>  
+
+<!--         
+    - <div id="postbox">
+        <button id="create" onclick="create()">createpost</button>
+           <div id="popup">
+            <span class="icon-close" id="close" onclick="createpost()">x</i></span>
+             <h3>Post-Something</h3>
+                 <input type="textarea">
+                 <img src="" alt=""><br>
+                 <button id="post" >Post</button>
+           </div>
+           <button id="postbutton"  onclick="show()">show-post</button>
+           <div id="show-post">
+               
+                 <div class="circle">
+                   <i class="fa-solid fa-check"></i>
+                  
+                 </div>
+                 <h1>Thank you</h1>
+                 <p>Your post has been suceesfully <br> submited</p>
+                 <button id="showbutton" onclick="showpost()">show-post</button>
+           </div>
+     </div>       -->
+
+
+
+    <div id="SignUpform">
+        <span class="icon-close" id="close" onclick="closesignup()">x</i></span>
+        <div class="form-box">
+            <h2>SignUp</h2>
+              <form action="#" id="myform">
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-user"></i></span>
+                    <input type="text" name="uname" id="Uname" required>
+                    <label for="Username">UserName</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" id="word" name="password" required>
+                    <label for="Password">Password</label>
+                </div>
+                <div class="forgot-password">
+                    <label ><input type="checkbox">Remember Me</label>
+                    <a href="#">Forgot-password</a>
+                </div>
+                  <input type="submit" id="up">
+              </form>
+        </div>
+    </div>
+
+    
+    <div  id="SignInform">
+        <span class="icon-close" id="close" onclick="closesignin()">x</i></span  -->
+     <div class="form-box">
+          <h2>SignIn</h2>
+           <form action="#"  id="newform">
+              <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-user"></i></span>
+                <input type="text" name="uname" id="fname" required>
+                <label for="Username">UserName</label>
+              </div>
+
+              
+            
+             <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                <input type="password" id="password" name="pass" required>
+                <label for="Password">Password</label>
+             </div>
+             <div class="forgot-password">
+                <label ><input type="checkbox">Remember Me</label>
+                <a href="#">Forgot-password</a>
+             </div>
+
+             <input type="submit"/>
+          </form>
+     </div>
+
+
+    
+</body>
+</html>
+
+<script src="index.js"></script>
